@@ -1,1 +1,27 @@
+WEEK 7 - TUTORIAL 7: BUG DOCUMENTATION
+During testing, several bugs were identified in the program and been fixed. To validate the corrected functionality, 
+six test cases were written and executed using pytest.
+ All six test cases passed successfully, confirming that the identified issues have been resolved.
+ 
+1. main.py - Invalid f-string syntax
+   Bug: {total.2f} is missing a colon before the format spec.
+   Fix: Changed to {total:.2f}
+
+2. main.py - No input validation
+   Bug: float(input()) and int(input()) crash on non-numeric input,
+        and accept negative price or quantity values.
+   Fix: Validation moved into calculate_order() in food_order.py,
+        which now returns "invalid price" or "invalid quantity" for
+        negative values.
+
+3. test_food_order.py - Wrong import path
+   Bug: "from Week7 import food_order" caused ModuleNotFoundError
+        since the test file already  inside the Week7 folder.
+   Fix: Changed to "from food_order import calculate_order"
+
+4. test_food_order.py - Wrong function name
+   Bug: Test imported "calculate_total", but the actual function in
+        food_order.py is named "calculate_order".
+   Fix: Updated import and all test calls to use calculate_order.
+
 
