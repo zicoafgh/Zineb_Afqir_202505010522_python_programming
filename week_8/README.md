@@ -17,4 +17,5 @@ View the generated receipt in the terminal
 
 ## Demo
 Run the program with python main.py 
-file:///C:/Users/thinkpad/Videos/Screen%20Recordings/Screen%20Recording%202026-07-15%20085236.mp4
+
+![Demo](./demo.gif)
