@@ -17,5 +17,4 @@ View the generated receipt in the terminal
 
 ## Demo
 Run the program with python main.py 
-
-![Demo](./demo.gif)
+![all text](.demo.gif)
