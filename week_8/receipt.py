@@ -1,0 +1,12 @@
+def print_receipt(name, food, quantity, price, delivery_charges):
+    subtotal = quantity * price
+    service_charge = subtotal * 0.05
+    grand_total = subtotal + service_charge + delivery_charges
+
+    print("\n========== RECEIPT ==========")
+    print(f"Customer : {name}")
+    print(f"Food     : {food}")
+    print(f"Quantity : {quantity}")
+    print(f"Price    : RM {price:.2f}")
+
+    print(f"Grand Total : RM {grand_total:.2f}")
