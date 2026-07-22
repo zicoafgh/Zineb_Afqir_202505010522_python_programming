@@ -40,4 +40,4 @@ _Attach a screen recording (video/GIF) here showing the application running from
 
 ## Demo to follow 
 ## Demonstration
-  [Click here to watch the demo video](demo.mp4)
+  [Click here to watch the demo video](demo2.mp4)
