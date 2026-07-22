@@ -1,0 +1,19 @@
+"""
+display.py
+Handles the formatted display of a completed IT Helpdesk ticket.
+"""
+
+
+def display_ticket(student_name, student_id, issue, location, priority, technician, status):
+    """
+    Prints a neatly formatted summary of the helpdesk ticket.
+    """
+    print("\n========== HELPDESK TICKET ==========")
+    print(f"Student Name : {student_name}")
+    print(f"Student ID   : {student_id}")
+    print(f"Issue        : {issue}")
+    print(f"Location     : {location}")
+    print(f"Priority     : {priority}")
+    print(f"Technician   : {technician}")
+    print(f"Status       : {status}")
+    print("========================================")
